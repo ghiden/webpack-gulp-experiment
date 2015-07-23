@@ -8,9 +8,7 @@ var WebpackDevServer = require('webpack-dev-server');
 var webpackConfig = require('./webpack.config');
 
 
-gulp.task('default', function(callback) {
-  runSequence('build', callback);
-});
+gulp.task('default', ['help']);
 
 gulp.task('build', function(callback) {
   runSequence('clean', 'webpack', 'sub:copy-public', callback);
