@@ -1,0 +1,52 @@
+.header {
+  background-color: #2d3e50;
+  color: white;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  background: white;
+}
+
+.content {
+  margin: 30px auto;
+  background-color: #edede2;
+  width: 50%;
+  padding: 40px 80px;
+  color: #333333;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: #373535;
+}
+
+.footer-item, .footer-item-separator {
+  font-size: .8rem;
+  text-decoration: none;
+  color: #cccccc;
+  text-transform: uppercase;
+}
+
+form > input {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+form button.pure-button-primary {
+  margin: 20px auto;
+  display: block;
+}
+
+
+/* react-select */
+form > .Select > .Select-control > .Select-input > input {
+  display: inline-block;
+  margin: initial;
+  padding: initial;
+  border: none;
+  box-shadow: none;
+}
